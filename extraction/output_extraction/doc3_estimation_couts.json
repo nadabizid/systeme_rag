@@ -1,0 +1,11 @@
+{
+  "texte": "Estimation des Coûts — Infrastructure RAG\nProjet interne — Sujet de stage #23\n1. Contexte\nCe document présente une estimation mensuelle des coûts liés au déploiement d'une infrastructure de Retrieval-\nAugmented Generation (RAG) sur AWS, combinant Amazon Bedrock pour les modèles de langage et OpenSearch\nServerless pour l'indexation vectorielle des documents.\n2. Détail des ressources\n3. Notes\nCes estimations sont basées sur un usage modéré typique d'une phase de développement et de tests. Le coût\nd'OpenSearch Serverless reste le poste le plus important car la facturation minimale par OCU s'applique même en\ncas de faible trafic. Une optimisation possible consiste à réduire le nombre d'OCU en environnement de\ndéveloppement et à ne monter en charge qu'en production.\n\n[TABLEAU]\nRessource Usage estimé Coût mensuel (USD)\nAmazon Bedrock (Claude) ~500k tokens/jour ~45 $\nOpenSearch Serverless 2 OCU indexation + 2 recherche ~350 $\nAmazon S3 (stockage docs) ~50 Go ~1,2 $\nAWS Lambda (traitement) ~10k invocations/mois ~2 $\nTotal estimé ~398 $ / mois\n[/TABLEAU]",
+  "metadonnees": {
+    "nom_fichier": "doc3_estimation_couts.pdf",
+    "type": "pdf",
+    "date_extraction": "2026-08-11T17:55:27.727979+00:00",
+    "source_bucket": null,
+    "source_key": "doc3_estimation_couts.pdf",
+    "nb_caracteres": 1061
+  }
+}

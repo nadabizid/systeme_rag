@@ -1,0 +1,24 @@
+# Lance tout le projet en une commande : docker-compose up --build
+# Backend accessible sur http://localhost:8000 (docs : /docs)
+# Frontend accessible sur http://localhost
+
+services:
+  backend:
+    build: ./extraction
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./extraction/.env
+    # Note : SQLite (conversations.db) n'est pas persisté entre les
+    # redémarrages du conteneur dans cette configuration — limitation
+    # déjà documentée dans extraction/README.md, acceptable pour un PoC.
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:8000
+    ports:
+      - "80:80"
+    depends_on:
+      - backend

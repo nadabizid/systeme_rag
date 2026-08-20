@@ -1,0 +1,26 @@
+{
+  "vectorisation_question": {
+    "moyenne_s": 1.1647,
+    "min_s": 1.081,
+    "max_s": 1.2567,
+    "nb_mesures": 4
+  },
+  "recherche_opensearch": {
+    "moyenne_s": 0.912,
+    "min_s": 0.8921,
+    "max_s": 0.9305,
+    "nb_mesures": 4
+  },
+  "generation_claude": {
+    "moyenne_s": 2.1984,
+    "min_s": 1.7118,
+    "max_s": 3.2305,
+    "nb_mesures": 4
+  },
+  "total": {
+    "moyenne_s": 4.2751,
+    "min_s": 3.709,
+    "max_s": 5.4021,
+    "nb_mesures": 4
+  }
+}

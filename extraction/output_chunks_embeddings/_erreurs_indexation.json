@@ -1,0 +1,35 @@
+[
+  {
+    "index": {
+      "_index": "rag-documents-index",
+      "_id": "doc1_politique_conges.docx_chunk0",
+      "status": 400,
+      "error": {
+        "type": "illegal_argument_exception",
+        "reason": "Document ID is not supported in create/index operation request"
+      }
+    }
+  },
+  {
+    "index": {
+      "_index": "rag-documents-index",
+      "_id": "doc2_onboarding_technique.docx_chunk0",
+      "status": 400,
+      "error": {
+        "type": "illegal_argument_exception",
+        "reason": "Document ID is not supported in create/index operation request"
+      }
+    }
+  },
+  {
+    "index": {
+      "_index": "rag-documents-index",
+      "_id": "doc3_estimation_couts.pdf_chunk0",
+      "status": 400,
+      "error": {
+        "type": "illegal_argument_exception",
+        "reason": "Document ID is not supported in create/index operation request"
+      }
+    }
+  }
+]

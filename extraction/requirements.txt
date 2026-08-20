@@ -1,0 +1,8 @@
+boto3
+pdfplumber
+python-docx
+python-dotenv
+opensearch-py
+requests-aws4auth
+fastapi
+uvicorn[standard]

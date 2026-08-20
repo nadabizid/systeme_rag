@@ -1,0 +1,11 @@
+{
+  "texte": "Politique de Congés et Télétravail\nSmartovate Consulting — Document interne RH\n1. Objet\nCe document décrit les règles applicables aux congés payés, aux jours de télétravail et aux absences pour l'ensemble des employés et stagiaires de Smartovate Consulting, en vigueur à partir du 1er janvier 2026.\n2. Types de congés\nChaque employé à temps plein bénéficie de 24 jours de congés payés par an, calculés au prorata pour les contrats à durée déterminée et les stages de plus de 3 mois. Les jours non pris ne sont pas reportables au-delà du 31 mars de l'année suivante, sauf accord exceptionnel de la direction.\n3. Barème par ancienneté\n\n[TABLEAU]\nAncienneté Jours de congés/an Jours télétravail/semaine\n0 - 1 an 24 jours 2 jours\n1 - 3 ans 26 jours 3 jours\n3 - 5 ans 28 jours 3 jours\n5 ans et + 30 jours 4 jours\n[/TABLEAU]\n\n4. Procédure de demande\nToute demande de congé doit être soumise via l'outil interne au moins 10 jours ouvrés à l'avance pour les congés de plus de 3 jours, et validée par le responsable direct. Les demandes de dernière minute (moins de 48h) sont soumises à l'approbation exceptionnelle du département RH.\n5. Cas particulier des stagiaires\nLes stagiaires bénéficient de congés au prorata de la durée de leur stage, à raison de 2 jours par mois complet travaillé. Les jours de télétravail pour les stagiaires sont limités à 1 jour par semaine durant le premier mois, puis alignés sur la politique générale après validation du tuteur.",
+  "metadonnees": {
+    "nom_fichier": "doc1_politique_conges.docx",
+    "type": "docx",
+    "date_extraction": "2026-08-11T17:55:21.499986+00:00",
+    "source_bucket": null,
+    "source_key": "doc1_politique_conges.docx",
+    "nb_caracteres": 1452
+  }
+}

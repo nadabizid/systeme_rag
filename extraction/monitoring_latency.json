@@ -1,0 +1,50 @@
+[
+  {
+    "horodatage": "2026-08-19T00:42:17.217834+00:00",
+    "question": "Combien de jours de congés pour un stagiaire ?",
+    "nb_chunks_trouves": 3,
+    "mesures_secondes": {
+      "vectorisation_question": 1.16,
+      "recherche_opensearch": 0.9105,
+      "generation_claude": 2.1153,
+      "total": 4.1858
+    },
+    "fiable": true
+  },
+  {
+    "horodatage": "2026-08-19T00:42:36.207635+00:00",
+    "question": "Comment configurer AWS CLI ?",
+    "nb_chunks_trouves": 3,
+    "mesures_secondes": {
+      "vectorisation_question": 1.2567,
+      "recherche_opensearch": 0.9149,
+      "generation_claude": 3.2305,
+      "total": 5.4021
+    },
+    "fiable": true
+  },
+  {
+    "horodatage": "2026-08-19T00:43:05.758671+00:00",
+    "question": "Combien coûte Bedrock par mois ?",
+    "nb_chunks_trouves": 3,
+    "mesures_secondes": {
+      "vectorisation_question": 1.081,
+      "recherche_opensearch": 0.8921,
+      "generation_claude": 1.7359,
+      "total": 3.709
+    },
+    "fiable": true
+  },
+  {
+    "horodatage": "2026-08-19T00:43:20.387834+00:00",
+    "question": "Quelle est la capitale de la France ?",
+    "nb_chunks_trouves": 3,
+    "mesures_secondes": {
+      "vectorisation_question": 1.1611,
+      "recherche_opensearch": 0.9305,
+      "generation_claude": 1.7118,
+      "total": 3.8034
+    },
+    "fiable": false
+  }
+]

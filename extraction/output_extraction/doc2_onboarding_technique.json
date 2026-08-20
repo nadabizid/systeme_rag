@@ -1,0 +1,11 @@
+{
+  "texte": "Procédure d'Onboarding Technique\nSmartovate Consulting — Département Ingénierie\n1. Introduction\nCe guide décrit les étapes techniques à suivre lors de l'arrivée d'un nouveau collaborateur ou stagiaire au sein du département Ingénierie. Il couvre la configuration des accès, des outils de développement et des environnements cloud.\n2. Étapes de configuration\nLa configuration se déroule en plusieurs phases réparties sur la première semaine. Le tableau ci-dessous détaille chaque étape, l'outil concerné et le délai estimé.\n\n[TABLEAU]\nJour Étape Outil / Service Durée estimée\nJ1 Création du compte SSO AWS IAM Identity Center 30 min\nJ1 Accès dépôts de code GitHub Organisation 15 min\nJ2 Installation environnement local Node.js, Python, Docker 2 heures\nJ2 Configuration AWS CLI AWS CLI v2 + SSO 1 heure\nJ3 Accès gestion de projet Jira, Miro 20 min\nJ4-J5 Prise en main projet Documentation interne, pair programming 2 jours\n[/TABLEAU]\n\n3. Bonnes pratiques de sécurité\nToute clé d'accès AWS, qu'elle soit temporaire ou permanente, ne doit jamais être partagée par email, chat ou capture d'écran publique. Les sessions SSO doivent être renouvelées via 'aws sso login' et non recréées manuellement à chaque expiration. En cas de doute sur une fuite d'identifiants, contacter immédiatement l'administrateur du compte AWS.\n4. Contact support\nPour toute question technique durant l'onboarding, le support est disponible via le canal Slack #dev-support ou par email à support-tech@smartovate.example.com du lundi au vendredi, 9h-18h.",
+  "metadonnees": {
+    "nom_fichier": "doc2_onboarding_technique.docx",
+    "type": "docx",
+    "date_extraction": "2026-08-11T17:55:24.338485+00:00",
+    "source_bucket": null,
+    "source_key": "doc2_onboarding_technique.docx",
+    "nb_caracteres": 1524
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "fichier": "doc1_politique_conges.docx",
+    "erreur": "[WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\\\Users\\\\MSI\\\\AppData\\\\Local\\\\Temp\\\\tmpmavconwr.docx'"
+  },
+  {
+    "fichier": "doc2_onboarding_technique.docx",
+    "erreur": "[WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\\\Users\\\\MSI\\\\AppData\\\\Local\\\\Temp\\\\tmpf4_mh8pb.docx'"
+  },
+  {
+    "fichier": "doc3_estimation_couts.pdf",
+    "erreur": "[WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\\\Users\\\\MSI\\\\AppData\\\\Local\\\\Temp\\\\tmp0s5527ft.pdf'"
+  }
+]
